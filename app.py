@@ -12,7 +12,7 @@ git remote add origin https://github.com/mathildekochlarsen-ui/Trunkbaseddevelop
 git push -u origin main
 
 
-print ("Hello World")
 
-str = "Hello World"
-print(str)
+@app.route('/vindmoeller')
+def vindmoeller():
+    return {"vindmoeller": ["Vestas-001", "Siemens-002", "Ørsted-003"]}
